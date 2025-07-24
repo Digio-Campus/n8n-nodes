@@ -5,8 +5,8 @@ import {
 	INodeProperties,
 } from 'n8n-workflow';
 
-export class SupabaseApi implements ICredentialType {
-	name = 'supabaseApi';
+export class Test_SupabaseApi implements ICredentialType {
+	name = 'test_SupabaseApi';
 	displayName = 'Supabase API';
 	documentationUrl = 'https://supabase.com/docs/guides/api/rest/auth';
 

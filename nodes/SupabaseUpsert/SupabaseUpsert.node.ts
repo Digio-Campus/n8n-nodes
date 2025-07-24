@@ -23,7 +23,7 @@ export class SupabaseUpsert implements INodeType {
 		outputs: [NodeConnectionType.Main],
 		credentials: [
 			{
-				name: 'supabaseApi',
+				name: 'test_supabaseApi',
 				required: true,
 			},
 		],
