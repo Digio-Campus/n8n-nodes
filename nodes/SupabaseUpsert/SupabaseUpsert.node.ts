@@ -23,7 +23,7 @@ export class SupabaseUpsert implements INodeType {
 		outputs: [NodeConnectionType.Main],
 		credentials: [
 			{
-				name: 'test_supabaseApi',
+				name: 'test_SupabaseApi',
 				required: true,
 			},
 		],
@@ -140,7 +140,7 @@ export class SupabaseUpsert implements INodeType {
 		const returnData: INodeExecutionData[] = [];
 
 		// Get credentials
-		const credentials = await this.getCredentials('supabaseApi');
+		const credentials = await this.getCredentials('test_SupabaseApi');
 		const baseUrl = credentials.host as string;
 		const apiKey = credentials.serviceKey as string;
 

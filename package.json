@@ -8,8 +8,8 @@
   "license": "MIT",
   "homepage": "",
   "author": {
-    "name": "",
-    "email": ""
+    "name": "prueba",
+    "email": "prueba@example.com"
   },
   "repository": {
     "type": "git",
@@ -33,7 +33,7 @@
   "n8n": {
     "n8nNodesApiVersion": 1,
     "credentials": [
-      "dist/credentials/SupabaseApi.credentials.js"
+      "dist/credentials/Test_SupabaseApi.credentials.js"
     ],
     "nodes": [
       "dist/nodes/SupabaseUpsert/SupabaseUpsert.node.js"

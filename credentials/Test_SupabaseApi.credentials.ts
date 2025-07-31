@@ -7,7 +7,7 @@ import {
 
 export class Test_SupabaseApi implements ICredentialType {
 	name = 'test_SupabaseApi';
-	displayName = 'Supabase API';
+	displayName = 'Test Supabase API';
 	documentationUrl = 'https://supabase.com/docs/guides/api/rest/auth';
 
 	properties: INodeProperties[] = [
